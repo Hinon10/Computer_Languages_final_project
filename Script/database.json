@@ -1,0 +1,27 @@
+{
+    "Operations": {
+        "2024": {
+            "12": {
+                "09": [
+                    {
+                        "value": -20,
+                        "category": "shopping"
+                    }
+                ],
+                "11": [
+                    {
+                        "value": 123,
+                        "category": "shopping"
+                    }
+                ]
+            }
+        }
+    },
+    "Categories": [
+        "shopping",
+        "taxes",
+        "groceries",
+        "restaurants"
+    ],
+    "balance": 103.0
+}
