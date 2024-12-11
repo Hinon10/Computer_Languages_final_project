@@ -489,11 +489,10 @@ class App(ctk.CTk):
         filtered_data = self.data["Operations"]
 
         if self.filters[2] is not None:
-            filtered_data = {year: month for year, month in filtered_data.items() if year == str(self.filters[2])}
+            filtered_data = {year: month for year, month in filtered_data.items() if year == str(self.filters[2]).zfill(2)}
 
         if self.filters[1] is not None:
-            filtered_data = {
-                year: {month: day for month, day in months.items() if month == str(MONTHS.index(self.filters[1]) + 1)}
+            filtered_data = {year: {month: day for month, day in months.items() if month == str(self.filters[1]).zfill(2)}
                 for year, months in filtered_data.items()}
 
         if self.filters[0] is not None:

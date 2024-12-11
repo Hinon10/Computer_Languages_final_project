@@ -1,7 +1,43 @@
 {
     "Operations": {
+        "2023": {
+            "11": {
+                "24": [
+                    {
+                        "value": -9000.0,
+                        "category": "taxes"
+                    }
+                ]
+            }
+        },
         "2024": {
+            "11": {
+                "11": [
+                    {
+                        "value": 15000,
+                        "category": "salary"
+                    }
+                ],
+                "21": [
+                    {
+                        "value": -90.0,
+                        "category": "taxes"
+                    }
+                ],
+                "30": [
+                    {
+                        "value": -150.0,
+                        "category": "shopping"
+                    }
+                ]
+            },
             "12": {
+                "02": [
+                    {
+                        "value": -400.0,
+                        "category": "taxes"
+                    }
+                ],
                 "09": [
                     {
                         "value": -20,
@@ -10,7 +46,45 @@
                 ],
                 "11": [
                     {
-                        "value": 123,
+                        "value": -100.0,
+                        "category": "restaurants"
+                    },
+                    {
+                        "value": -50.0,
+                        "category": "groceries"
+                    },
+                    {
+                        "value": 4000,
+                        "category": "salary"
+                    },
+                    {
+                        "value": -3000.0,
+                        "category": "groceries"
+                    }
+                ]
+            }
+        },
+        "2025": {
+            "01": {
+                "14": [
+                    {
+                        "value": -200,
+                        "category": "groceries"
+                    },
+                    {
+                        "value": -100,
+                        "category": "restaurants"
+                    }
+                ],
+                "15": [
+                    {
+                        "value": 4000,
+                        "category": "salary"
+                    }
+                ],
+                "16": [
+                    {
+                        "value": -5000,
                         "category": "shopping"
                     }
                 ]
@@ -21,7 +95,9 @@
         "shopping",
         "taxes",
         "groceries",
-        "restaurants"
+        "restaurants",
+        "salary",
+        "clothes"
     ],
-    "balance": 103.0
+    "balance": 4890.0
 }
